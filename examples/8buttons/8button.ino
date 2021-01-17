@@ -18,7 +18,7 @@ void setup() {
 void loop() {
   for (int i = 0; i < 8; i++) {
     if (buttons[i].update() && buttons[i].fell()) {
-      Serial.printf("Button %d pressed!, i");
+      Serial.printf("Button %d pressed!", i);
     }
   }
 }
