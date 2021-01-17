@@ -1,7 +1,7 @@
 /*
   The MIT License (MIT)
 
-  Copyright (c) 2013 thomasfredericks
+  Copyright (c) 2021 razvanlevarda
 
   Permission is hereby granted, free of charge, to any person obtaining a copy of
   this software and associated documentation files (the "Software"), to deal in
@@ -24,7 +24,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
   Main code by Thomas O Fredericks (tof@t-o-f.info)
   Previous contributions by Eric Lowry, Jim Schimpf and Tom Harkaway
-  Modifications to add MCP23017 compatability made by Tenkai Kariya
+  Modifications to add PCF8574 library compatability made by Razvan Levarda
   * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #ifdef BOUNCE_LOCK
