@@ -2,7 +2,7 @@
 #include "PCF8574.h"
 #include "Bounce2pcf.h"
 
-PCF8574 IN_1(0x20);
+PCF8574 pcf(0x20);
 
 #define DEBOUNCE_TIME 5 // debounceTime
 
@@ -10,7 +10,7 @@ Bounce2pcf * buttons = new Bounce2pcf[8];
 
 void setup() {
   for (uint8_t i = 0; i < 8; i++) {
-    buttons[i].attach(&IN_1, i);
+    buttons[i].attach(&pcf, i);
     buttons[i].interval(DEBOUNCE_TIME); 
   }
 }
