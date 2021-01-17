@@ -8,7 +8,8 @@ The library is a fork of the Bounce2 Debouncing by Thomas Ouellet Fredericks.
 
 Have fun!
 
-Here is the original Library: https://github.com/cosmikwolf/Bounce2mcp
-&
-You need library instaled: https://github.com/RobTillaart/PCF8574
-Original Bounce2 Debouncing: https://github.com/thomasfredericks/Bounce2
+Here is the original Library: https://github.com/cosmikwolf/Bounce2mcp.
+You need library instaled: https://github.com/RobTillaart/PCF8574.
+Original Bounce2 Debouncing: https://github.com/thomasfredericks/Bounce2.
+
+See Examples for implementation!
